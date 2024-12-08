@@ -17,8 +17,7 @@ export default {
   			'7': '28px'
   		},
   		fontFamily: {
-  			poppins: ['Poppins','sans-serif'],
-  			inter: ['Inter','sans-serif'],
+   
   			Roboto: ['Roboto','sans-serif']
   		},
   		colors: {
