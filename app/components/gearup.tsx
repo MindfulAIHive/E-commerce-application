@@ -1,4 +1,6 @@
 
+'use client'
+import React from 'react'
 import { GearCarousel1 } from "./gearcarorsel";
 import { GearCarousel2 } from "./GearCarousel2";
 

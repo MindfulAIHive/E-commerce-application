@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header";
 import { Poppins, Roboto } from "next/font/google";
 import Topbar from "./components/topbar";
 import Hero from "./components/hero";
-import Productscard from "./components/productscard"
+
 
 
 
@@ -37,13 +37,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={roboto.className}>
 
         <Topbar />
         <Header />
         <Hero />
 
-        <Productscard />
        
         {children}
  
